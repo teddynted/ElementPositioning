@@ -22,7 +22,6 @@
     		$top = parseInt($parent.height()/2) - parseInt($(this).height()/2);
     		$left = parseInt($parent.width()/2) - parseInt($(this).width()/2);
             // Apply style positioning based on the alignment condition
-            alert(options.alignment);
             $(this).css({ "position": "absolute" });
             switch(options.alignment){
                 case 'middle-center':
