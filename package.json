@@ -1,7 +1,7 @@
 {
-  "name": "elementcentral",
+  "name": "elementpositioning",
   "version": "1.0.0",
-  "description": "elementcentral",
+  "description": "elementpositioning",
   "main": "gulpfile.js",
   "scripts": {
     "minify": "gulp js"

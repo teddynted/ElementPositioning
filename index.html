@@ -12,18 +12,26 @@
         width: 100%;
         margin: 0;
         padding: 0;
+        background-color: #BFBFBF;
       }
       a {
         display: inline-block;
+        background-color: #DADFE1;
+        color: #333;
+        padding: 5px;
+        text-decoration: none;
+        margin: 0;
+        width: 200px;
+        text-align: center;
       }
   </style>
 </head>
 <body>
-  <div class="container"><a href="#" id="elem">Position this element</a></div> 
+  <div class="container"><a href="https://github.com/teddynted/ElementPositioning" target="_blank" id="elem">Position this element</a></div> 
   <script type="text/javascript" src="build/js/jquery.min.js"></script>
-  <script type="text/javascript" src="build/js/elementcentral.js"></script>
+  <script type="text/javascript" src="build/js/elementpositioning.js"></script>
   <script>
-      $("a#elem").positionElement({ alignment: 'top-right' }); // Default element's position
+      $("#elem").positionElement({ alignment: 'middle-center' }); // Default element's position
   </script> 
 </body>
 </html>

@@ -3,11 +3,11 @@ concat = require('gulp-concat'),
 uglify = require('gulp-uglify');
 
 gulp.task('js', function(){
-   gulp.src('src/js/elementcentral.js')
-   .pipe(concat('elementcentral.js'))
+   gulp.src('src/js/elementpositioning.js')
+   .pipe(concat('elementpositioning.js'))
    .pipe(uglify())
    .pipe(gulp.dest('build/js/'));
 });
 
 
-gulp.watch('src/js/elementcentral.js', ['js']);
+gulp.watch('src/js/elementpositioning.js', ['js']);
